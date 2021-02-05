@@ -7,13 +7,13 @@ const HomeBanner =()=>{
          style={{backgroundImage: `url(${BannerImage})` }}
          data-aos="fade-up"
         >
-            <div class="wrap">
+            <div className="wrap">
 
               <h1 data-aos="fade-up" data-aos-duration="500" className="aos-init aos-animate">
                  Debt Brokering,Modernized
                 </h1>
                 <div
-                  class="content-holder aos-init aos-animate content-holder-sub"
+                  className="content-holder aos-init aos-animate content-holder-sub"
                   data-aos="fade-up"
                   data-aos-duration="500"
                 >
@@ -26,25 +26,25 @@ const HomeBanner =()=>{
                 </div>
             </div>
             <div className="ul-content">
-             <ul class="data-list cus-list">
-                    <li class="data-item cus-item">
+             <ul className="data-list cus-list">
+                    <li className="data-item cus-item">
                       
-                        <span class="item-value">4</span>
-                         <span class="item-caption">continents with a lender presence</span>
+                        <span className="item-value">4</span>
+                         <span className="item-caption">continents with a lender presence</span>
                       
                      
                     </li>
-                    <li class="data-item cus-item">
-                      <span class="item-value">50</span>
-                      <span class="item-caption">states with lender access</span>
+                    <li className="data-item cus-item">
+                      <span className="item-value">50</span>
+                      <span className="item-caption">states with lender access</span>
                     </li>
-                    <li class="data-item cus-item">
-                      <span class="item-value">$150M</span>
-                      <span class="item-caption">in loans originated</span>
+                    <li className="data-item cus-item">
+                      <span className="item-value">$150M</span>
+                      <span className="item-caption">in loans originated</span>
                     </li>
-                    <li class="data-item cus-item">
-                      <span class="item-value">50</span>
-                      <span class="item-caption">minutes for a loan application</span>
+                    <li className="data-item cus-item">
+                      <span className="item-value">50</span>
+                      <span className="item-caption">minutes for a loan application</span>
                     </li>
                   </ul>
                   <a className="button" href="#" target="_self">Request a Free Trial</a>

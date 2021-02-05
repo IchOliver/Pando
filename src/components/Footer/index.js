@@ -11,8 +11,8 @@ const Footer =()=>{
           </p>
           <nav
             className="nav-footer"
-            itemscope
-            itemtype="http://schema.org/SiteNavigationElement"
+            itemScope
+            itemType="http://schema.org/SiteNavigationElement"
             id="genesis-nav-footer"
           >
             <ul id="menu-footer-nav" className="genesis-nav-menu">
