@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+/* ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+} */
+li {
+  list-style-type: none;
+}
+a {
+  /* color: #ff6c3a; */
+  text-decoration: none;
+}
+
+img{
+  height: auto;
+}
+
+p {
+  margin: 0 0 30px;
+  padding: 0;
+}

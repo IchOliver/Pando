@@ -1,0 +1,46 @@
+.site-topbar {
+  background: #fff;
+  border-bottom: 1px solid #e6e9ed;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: rgba(10, 36, 69, 0.6);
+  line-height: normal;
+  height: auto;
+  text-align: center;
+  display: none;
+}
+.wrap {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.site-topbar li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.site-topbar a {
+  color: rgba(10, 36, 69, 0.6);
+   
+}
+a:hover{
+    color: #0078ef;
+    text-decoration: none;
+}
+@media screen and (min-width: 860px) {
+  .site-topbar {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: left;
+  }
+  .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

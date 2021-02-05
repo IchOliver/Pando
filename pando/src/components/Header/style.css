@@ -1,0 +1,46 @@
+.site-header {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+
+ .wrap {
+    padding: 0 5%;
+}
+
+.title-area {
+    padding: 15px 0 22px;
+}
+/* .title-area {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+} */
+.custom-logo-link {
+    display: block;
+    line-height: 46px;
+    height: 46px;
+}
+.custom-logo-link img {
+    width: auto;
+    max-height: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 860px){
+.wrap {
+    padding: 0;
+}
+.title-area {
+    width: auto;
+    text-align: left;
+}
+}
+
+
+
+
